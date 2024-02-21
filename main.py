@@ -68,4 +68,4 @@ for epoch in range(args.nb_epochs):
     print(f"Average PSNR: {avg_psnr / len(testloader)} dB.")
 
     # Save model
-    torch.save(model, f"model_{epoch}.pth")
+    torch.save(model, f"hoon\one\pth_file\model_{epoch}.pth")
